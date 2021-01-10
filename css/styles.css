@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  text-align: center;
+  /* try verdana first, and if it does not work, set the font to default sans-serif */
+  /* so we gotta use CSS Web Safe Fonts */
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  /*from more specific to less specific*/
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*100% - 16px; 90px = 562.5%; 1em or 1rem = 100% = 16px*/
+  line-height: 2; /* increases space between whatever it is on top and below*/
+  /* display: inline; */
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  /* width: 10%; */
+  /* margin: 0 auto; */
+}
+#my_picture{
+  height: 350px;
+  border-radius: 10%;
+}
+#my_title {
+  font-weight: normal;
+  font-family: 'Sofia', cursive;
+}
+
+.top_container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 30px;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #374045;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+hr {
+  border-style: dotted;
+  border-bottom: none;
+  border-color: #EAF6F6;
+  border-width: 6px;
+  height: 0px;
+  width: 4%;
+  margin: 40px auto;
+  clear: right;
+}
+p {
+  line-height: 2;
+}
+.middle_container {
+  margin: 50px 0;
+}
+
+.bottom-container {
+  padding: 40px 0 10px;
+  background-color: #66BFBF;
+}
+
+.pro {
+  text-decoration: underline;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.contact_message {
+  width: 40%;
+  margin: 40px auto 30px; /*top, left-right, bottom*/
+}
+/* .skills {
+  padding: 30px 0;
+} */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.contact-me {
+  margin: 50px 0;
+}
+
+.top_cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto 150px;
+  text-align: left;
+
+}
+.computer_img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.language_img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/* .contact_me_btn {
+  background-color: #11999E;
+  color: #EAF6F6;
+  font-size: 1rem;
+  border-radius: 15%;
+  margin: 20px 0;
+  padding: 15px;
+} */
+.copyright {
+  font-size: 0.75rem;
+  padding-top: 40px;
+  color: #EAF6F6;
+}
+.profile {
+  margin: 70px 0;
+}
